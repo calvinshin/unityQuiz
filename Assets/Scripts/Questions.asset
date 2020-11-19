@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c910f5c9336448d18bbefd2352baece, type: 3}
+  m_Name: Questions
+  m_EditorClassIdentifier: 
+  questionSets:
+  - level: 0
+    questions:
+    - questionType: 0
+      questionText: What color are elephants?
+      questionImage: {fileID: 0}
+      questionAudio: {fileID: 0}
+      correctAnswerKey: Gray
+      answerChoices:
+      - Grey
+      - Gray
+      - Crimson
+    - questionType: 1
+      questionText: What language is this?
+      questionImage: {fileID: 21300000, guid: 691d810a66f654c29a2806ae53c4e7d0, type: 3}
+      questionAudio: {fileID: 0}
+      correctAnswerKey: C#
+      answerChoices:
+      - Java
+      - Javascript
+      - Python
+      - C#
+      - pgSQL
+    - questionType: 2
+      questionText: What instrument is this?
+      questionImage: {fileID: 0}
+      questionAudio: {fileID: 8300000, guid: 6ebc8567f52564c3aaa7f3e486eeb2b3, type: 3}
+      correctAnswerKey: Xylophone
+      answerChoices:
+      - Piano
+      - Synth
+      - Xylophone
+  - level: 1
+    questions:
+    - questionType: 0
+      questionText: You just gotta guess what this is.
+      questionImage: {fileID: 0}
+      questionAudio: {fileID: 0}
+      correctAnswerKey: loll
+      answerChoices:
+      - wut
+      - hahaha
+      - loll
+      - heyy
+      - heyyy
